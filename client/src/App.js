@@ -1,12 +1,11 @@
-import React from 'react';
-import classes from './App.module.css';
-import NavigationPanel from './containers/NavigationPanel/NavigationPanel';
+import React from "react";
+import Main from './containers/Main/Main';
 const App = (props) => {
   return (
-    <div className={classes.main}>
-       <NavigationPanel />
+    <div>
+      <Main />
     </div>
   );
-}
+};
 
 export default App;
