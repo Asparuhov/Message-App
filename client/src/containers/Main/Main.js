@@ -10,5 +10,5 @@ const Main = (props) => {
     </div>
   );
 };
-//testing git
+
 export default Main;
