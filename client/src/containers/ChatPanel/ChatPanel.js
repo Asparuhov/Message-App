@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import classes from "./ChatPanel.module.css";
 const ChatPanel = (props) => {
   let [message, setMessage] = useState("");
+  let [currentChat, setCurrentChat] = useState([]);
   return (
     <div className={classes.chat}>
       <div className={classes.Upper}></div>
