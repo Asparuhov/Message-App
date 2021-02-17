@@ -18,5 +18,4 @@ const ChatPanel = (props) => {
     </div>
   );
 };
-//chat panel
 export default ChatPanel;
