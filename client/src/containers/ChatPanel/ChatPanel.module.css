@@ -5,6 +5,7 @@
   border: 2px solid rgb(212, 103, 0);
   margin-left: -1px;
   position: relative;
+  display: block;
 }
 
 .bottom {

@@ -21,7 +21,7 @@ const ChatPanel = (props) => {
           return (
             <Message
               class={chat.name === props.user.username ? "current" : null}
-              user={chat.user}
+              user={chat.name}
               message={chat.message}
             />
           );
