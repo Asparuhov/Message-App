@@ -1,0 +1,42 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 15px;
+  bottom: 45px;
+}
+
+.current {
+  color: rgba(61, 51, 51, 0.933);
+  font-size: 13px;
+}
+
+.main {
+  background-color: cyan;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  min-width: 200px;
+  overflow-wrap: break-word;
+  margin-top: 0;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+}
+
+.other .current {
+  color: rgba(61, 51, 51, 0.933);
+  font-size: 13px;
+}
+
+.other .main {
+  background-color: grey;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  min-width: 200px;
+  overflow-wrap: break-word;
+  margin-top: 0;
+}
